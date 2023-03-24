@@ -29,5 +29,5 @@
 
 ### 4. MobileApp
 * Cross Platform Dev
-  * Skill Stack
+  * Language & Framework
     * <img src="https://img.shields.io/badge/-Flutter-blue">
