@@ -14,7 +14,7 @@
 ### 2. FrontSide
 * SPA Web App
   * Language & Framework
-    * <img src="https://img.shields.io/badge/-React.JS-79efff">
+    * <img src="https://img.shields.io/badge/-TypeScript-blue">&nbsp;<img src="https://img.shields.io/badge/-React.JS-79efff">
 
 ### 3. BackOffice
 * Main Server
@@ -22,7 +22,7 @@
     * <img src="https://img.shields.io/badge/-Spring Boot-green">
 * Local Server
   * Language & Framework(undecided)
-    * <img src="https://img.shields.io/badge/-Express.js-yellow">
+    * <img src="https://img.shields.io/badge/-TypeScript-blue">&nbsp;<img src="https://img.shields.io/badge/-Express.js-yellow">
 * Database
   * Language & Framework
     * <img src="https://img.shields.io/badge/-MySQL-gray">
