@@ -1,0 +1,30 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 7vh;
+  background-color: #282828;
+}
+
+.main-logo {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  color: white;
+}
+
+.nav-body {
+  
+}
+
+.nav-rear {
+
+}
+
+button {
+  border: none;
+  height: 50%;
+  background: none;
+  font-weight: bold;
+  color: white;
+}
