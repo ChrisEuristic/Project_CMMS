@@ -1,8 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Join from './Signup/Join';
-import JoinForm from './Signup/JoinForm';
-import RouterMain from './Router/RouterMain';
+import { BrowserRouter } from 'react-router-dom';
+import RouterMain from './build/RouterMain';
 
 function App() {
   return (
