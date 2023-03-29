@@ -31,11 +31,13 @@ const react_router_dom_1 = require("react-router-dom");
 const RouterNv_1 = __importDefault(require("./RouterNv"));
 const Home_1 = __importDefault(require("./Home"));
 const JoinForm_1 = __importDefault(require("./Signup/JoinForm"));
+const Login_1 = __importDefault(require("./Signup/Login"));
 const RouterMain = () => {
     return (React.createElement(React.Fragment, null,
         React.createElement(RouterNv_1.default, null),
         React.createElement(react_router_dom_1.Routes, null,
             React.createElement(react_router_dom_1.Route, { path: "/", element: React.createElement(Home_1.default, null) }),
-            React.createElement(react_router_dom_1.Route, { path: "/member", element: React.createElement(JoinForm_1.default, null) }))));
+            React.createElement(react_router_dom_1.Route, { path: "/login", element: React.createElement(Login_1.default, null) }),
+            React.createElement(react_router_dom_1.Route, { path: "/join", element: React.createElement(JoinForm_1.default, null) }))));
 };
 exports.default = RouterMain;

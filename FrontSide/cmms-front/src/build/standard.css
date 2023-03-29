@@ -1,5 +1,8 @@
 .navbar {
+  position: absolute;
+  top: 0px;
   display: flex;
+  justify-content: center;
   align-items: center;
   width: 100vw;
   height: 7vh;
@@ -7,6 +10,8 @@
 }
 
 .main-logo {
+  position: absolute;
+  left: 0px;
   display: flex;
   justify-content: center;
   width: 200px;
@@ -14,17 +19,33 @@
 }
 
 .nav-body {
-  
+  height: 100%;
+}
+
+.nav-body > button {
+  border: none;
+  background: none;
+  height: 100%;
+  font-weight: bold;
+  color: white;
+  font-size: 1.2em;
+  margin: 0 50px;
 }
 
 .nav-rear {
-
+  position: absolute;
+  right: 18px;
+  height: 100%;
 }
 
-button {
+.nav-rear > button {
   border: none;
-  height: 50%;
   background: none;
-  font-weight: bold;
+  height: 100%;
   color: white;
+  font-size: 1.2em;
+}
+
+.body-top {
+  margin-top: 65px;
 }

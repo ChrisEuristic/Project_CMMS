@@ -25,6 +25,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const React = __importStar(require("react"));
 const Home = () => {
-    return (React.createElement("div", null, "\uC5EC\uAE30\uB294 \uD648"));
+    return (React.createElement(React.Fragment, null,
+        React.createElement("div", { className: 'body-top' }, "\uC5EC\uAE30\uB294 \uD648")));
 };
 exports.default = Home;

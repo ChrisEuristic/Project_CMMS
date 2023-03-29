@@ -36,12 +36,12 @@ const RouterNv = () => {
                 React.createElement("path", { "fill-rule": "evenodd", "clip-rule": "evenodd", d: "M50.8984 52.0168C50.8953 49.7732 51.7114 47.6056 53.1934 45.9211C54.6755 44.2366 56.7215 43.1511 58.9472 42.8685C61.173 42.5858 63.4254 43.1255 65.2814 44.386C67.1374 45.6466 68.4694 47.5414 69.0272 49.7146C69.1494 50.1877 69.0785 50.6899 68.8304 51.1108C68.5822 51.5316 68.177 51.8367 67.7039 51.9588C67.2308 52.0809 66.7286 52.0101 66.3077 51.7619C65.8868 51.5138 65.5818 51.1086 65.4597 50.6355C65.1253 49.3312 64.3262 48.194 63.2124 47.4373C62.0987 46.6807 60.747 46.3568 59.4113 46.5264C58.0756 46.696 56.8478 47.3475 55.9586 48.3585C55.0693 49.3695 54.5798 50.6704 54.582 52.0168V57.5422H70.0531C71.6739 57.5422 73 58.8683 73 60.4891V73.3817C73 75.8129 71.0109 77.802 68.5797 77.802H51.6351C49.204 77.802 47.2148 75.8129 47.2148 73.3817V60.4891C47.2148 58.8683 48.5409 57.5422 50.1617 57.5422H50.8984V52.0168ZM60.1074 61.6863C59.375 61.6855 58.6642 61.9342 58.092 62.3914C57.5198 62.8486 57.1204 63.4871 56.9596 64.2016C56.7987 64.9162 56.8861 65.6642 57.2072 66.3224C57.5282 66.9807 58.064 67.51 58.7261 67.8231V72.2766C58.7261 72.643 58.8716 72.9943 59.1306 73.2534C59.3897 73.5124 59.741 73.658 60.1074 73.658C60.4738 73.658 60.8251 73.5124 61.0842 73.2534C61.3432 72.9943 61.4888 72.643 61.4888 72.2766V67.8231C62.1509 67.51 62.6866 66.9807 63.0077 66.3224C63.3287 65.6642 63.4161 64.9162 63.2552 64.2016C63.0944 63.4871 62.695 62.8486 62.1228 62.3914C61.5506 61.9342 60.8398 61.6855 60.1074 61.6863Z", fill: "white" }))),
         React.createElement("div", { className: 'nav-body' },
             React.createElement("button", { onClick: () => navigator("/") }, "\uD648"),
-            React.createElement("button", { onClick: () => navigator("/member") }, "\uC0DD\uC0B0"),
+            React.createElement("button", { onClick: () => navigator("/") }, "\uC0DD\uC0B0"),
             React.createElement("button", { onClick: () => navigator("/") }, "\uD488\uC9C8"),
             React.createElement("button", { onClick: () => navigator("/") }, "\uC7AC\uACE0"),
             React.createElement("button", { onClick: () => navigator("/") }, "\uC124\uBE44")),
         React.createElement("div", { className: 'nav-rear' },
-            React.createElement("button", { onClick: () => navigator("/") }, "\uB85C\uADF8\uC778"),
-            React.createElement("button", { onClick: () => navigator("/") }, "\uD68C\uC6D0\uAC00\uC785"))));
+            React.createElement("button", { onClick: () => navigator("/login") }, "\uB85C\uADF8\uC778"),
+            React.createElement("button", { onClick: () => navigator("/join") }, "\uD68C\uC6D0\uAC00\uC785"))));
 };
 exports.default = RouterNv;
