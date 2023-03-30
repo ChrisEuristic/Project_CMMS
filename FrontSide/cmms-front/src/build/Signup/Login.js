@@ -29,7 +29,7 @@ const Login = () => {
     const navigator = (0, react_router_dom_1.useNavigate)();
     const id = React.useRef(null);
     const password = React.useRef(null);
-    document.addEventListener("keydown", (event) => {
+    const loginFunction = (event) => {
         var _a, _b;
         if (event.key === "Enter") {
             fetch("http://1.254.141.230:8086/login", {
@@ -45,14 +45,19 @@ const Login = () => {
                 .then(result => {
                 if (result.success) {
                     alert(result.name + "님, 반갑습니다!");
-                    navigator("/");
+                    eval(result.gotoHome);
+                    document.removeEventListener("keydown", loginFunction);
                 }
                 else {
                     alert("로그인 실패");
                 }
             });
+            // .then(() => {
+            //   navigator("/");
+            // })
         }
-    });
+    };
+    document.addEventListener("keydown", loginFunction);
     return (React.createElement("div", { className: 'margin-top margin-top2' },
         React.createElement("label", { htmlFor: 'id' }, "\uC544\uC774\uB514"),
         React.createElement("div", { className: 'inline-flex' },

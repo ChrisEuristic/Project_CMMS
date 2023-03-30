@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import cmms.domain.Member;
+import cmms.entity.Member;
 import cmms.service.ServerService;
 
 @RestController
@@ -32,17 +32,7 @@ public class ServerController {
 	@CrossOrigin(origins = "http://1.254.141.230:3086")
 	@PostMapping("/login")
 	public Map<String, Object> login(@RequestBody Map<String, Object> req){
-		return service.login(req);
+		Map<String, Object> map = service.login(req);
+		return map;
 	}
-	
-//	@PostMapping("/member")
-//	public RedirectView addMember(Member member){
-//		RedirectView redirectView = new RedirectView();
-//		
-//		service.addMember(member);
-//	    redirectView.setUrl("/");
-//	    return redirectView;
-//		
-//	}
-
 }
